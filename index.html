@@ -11,27 +11,36 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <!--custom CSS -->
         <link rel="stylesheet" href="styles.css">
+        <!-- load external HTML file -->
 
+        <script src="jquery-3.5.0.min.js"></script>
+        <script>
+          $(function(){
+            $("#navPage").load("navPage.html");
+        });
+        </script>
     </head>
 
     <body>
+      <!-- load the navbar from the navPage file --->
+      <div id="navPage"></div>
       <!-- Site name -->
       <h2 class="text-center">Balleen Herefords</h2>
 
       <div class="container">
         <!-- Buttons row -->
-        <div class="row">
+        <div class="row align-self-center">
           <div class="col-sm-3">
-            <a href="index.html" type="button" class="btn btn-primary btn-lg btn-block active">Home</a>
+            <a href="index.html" type="button" class="btn btn-link btn-block active">Home</a>
           </div>
           <div class="col-sm-3">
-            <a href="second.html" type="button" class="btn btn-primary btn-lg btn-block">2nd page</a>
+            <a href="second.html" type="button" class="btn btn-link">2nd page</a>
           </div>
           <div class="col-sm-3">
-            <a href="third.html" type="button" class="btn btn-primary btn-lg btn-block">3rd page</a>
+            <a href="third.html" type="button" class="btn btn-link ">3rd page</a>
           </div>
           <div class="col-sm-3">
-            <a href="fourth.html" type="button" class="btn btn-primary btn-lg btn-block">4th page</a>
+            <a href="fourth.html" type="button" class="btn btn-link ">4th page</a>
           </div>
         </div>
 

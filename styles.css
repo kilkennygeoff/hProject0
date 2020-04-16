@@ -1,17 +1,29 @@
-#top {
-    font-size: 36px;
-    color: red;
-}
+<style>
+    #top {
+        font-size: 36px;
+        color: red;
+    }
 
-#middle {
-    font-size: 24px;
-}
+    #middle {
+        font-size: 24px;
+    }
 
-#bottom {
-    font-size: 12px;
-}
+    #bottom {
+        font-size: 12px;
+    }
 
-.name {
-    font-weight: bold;
-    color: blue;
-}
+    .name {
+        font-weight: bold;
+        color: blue;
+    }
+    .top-buffer {
+      background-color: #fff3d5;
+      margin-top:20px;
+
+     }
+     .email {
+       color:#bba95f;
+       text-decoration: underline;
+     }
+     
+</style>
