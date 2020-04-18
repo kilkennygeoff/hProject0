@@ -1,0 +1,33 @@
+    #title {
+      border-style: solid;
+
+    }
+
+    .name {
+        font-weight: bold;
+        color: blue;
+    }
+    .top-buffer {
+      background-color: #fff3d5;
+      margin-top:20px;
+      text-align: center;
+
+     }
+     .email {
+       color:#bba95f;
+       text-decoration: underline;
+     }
+     .btn-link{
+       color:#151515
+     }
+     ul {
+       text-align: center;
+     }
+
+/* Removes columns with the notMobile Class when the screen is below 480px wide */
+     @media (max-width:480px) {
+       table
+        .notMobile{
+          display:none;
+        }
+      }

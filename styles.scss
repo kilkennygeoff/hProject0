@@ -1,0 +1,48 @@
+$color-one: #fff3d5;
+$color-two: #F8FF8C;
+
+%imgDescribe {
+  margin-top:20px;
+  text-align: center;
+}
+
+div {
+  .top-buffer {
+    @extend %imgDescribe ;
+    background-color: $color-one;
+
+
+   }
+   .top-buffer-2 {
+     @extend %imgDescribe ;
+     background-color: $color-two;
+
+
+    }
+  }
+
+  #balleenPolly {
+     border-radius: 8px;
+
+  }
+  
+  /* Removes columns with the notMobile Class when the screen is below 480px wide */
+   @media (max-width:480px) {
+     table
+      .notMobile{
+        display:none;
+      }
+    }
+
+.name {
+    font-weight: bold;
+    color: blue;
+}
+
+ .email {
+   color:#bba95f;
+   text-decoration: underline;
+ }
+ .btn-link{
+   color:#151515
+ }
