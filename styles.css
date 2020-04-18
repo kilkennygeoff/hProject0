@@ -1,29 +1,37 @@
-<style>
-    #top {
-        font-size: 36px;
-        color: red;
-    }
+div .top-buffer-2, div .top-buffer {
+  margin-top: 20px;
+  text-align: center;
+}
 
-    #middle {
-        font-size: 24px;
-    }
+div .top-buffer {
+  background-color: #fff3d5;
+}
+div .top-buffer-2 {
+  background-color: #F8FF8C;
+}
 
-    #bottom {
-        font-size: 12px;
-    }
+#balleenPolly {
+  border-radius: 8px;
+}
 
-    .name {
-        font-weight: bold;
-        color: blue;
-    }
-    .top-buffer {
-      background-color: #fff3d5;
-      margin-top:20px;
+/* Removes columns with the notMobile Class when the screen is below 480px wide */
+@media (max-width: 480px) {
+  table .notMobile {
+    display: none;
+  }
+}
+.name {
+  font-weight: bold;
+  color: blue;
+}
 
-     }
-     .email {
-       color:#bba95f;
-       text-decoration: underline;
-     }
-     
-</style>
+.email {
+  color: #bba95f;
+  text-decoration: underline;
+}
+
+.btn-link {
+  color: #151515;
+}
+
+/*# sourceMappingURL=styles.css.map */
