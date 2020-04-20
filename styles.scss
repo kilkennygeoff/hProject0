@@ -25,9 +25,9 @@ div {
      border-radius: 8px;
 
   }
-  
+
   /* Removes columns with the notMobile Class when the screen is below 480px wide */
-   @media (max-width:480px) {
+   @media (max-width:550px) {
      table
       .notMobile{
         display:none;
